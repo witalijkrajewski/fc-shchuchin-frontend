@@ -2,7 +2,7 @@
   <div class="players">
     <div class="columns is-multiline">
       <div class="column is-12">
-        <h2 class="is-size-2 has-text-centered">All Players</h2>
+        <h2 class="is-size-2 has-text-centered">Список игроков</h2>
       </div>
 
       <PlayerBox
@@ -32,7 +32,7 @@ export default {
   mounted() {
     this.getPlayers()
 
-    document.title = 'Players'
+    document.title = 'Список игроков'
   },
   methods: {
     async getPlayers() {
